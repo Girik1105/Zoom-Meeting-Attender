@@ -23,6 +23,7 @@ python main.py
 #Some zoom settings to make sure this python script works: 
 ---
 ![alt image](assets/uncheck.png)
+<img src="assets/uncheck.png" height="50" width="50">
 Remember to UNCHECK this so that the script can automatically leave the meeting.
 
 #How does it work?
