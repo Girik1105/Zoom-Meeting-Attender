@@ -22,9 +22,10 @@ python main.py
 
 #Some zoom settings to make sure this python script works: 
 ---
-<img src="assets/uncheck.png" height="150" width="150">
+<img src="assets/uncheck.png" height="350" width="350">
 
 Remember to UNCHECK this so that the script can automatically leave the meeting.
+Please use light mode(sorry) for zoom panel.
 
 #How does it work?
 ---
