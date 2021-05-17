@@ -8,7 +8,7 @@ This is a python bot made with pyautogui that will:
 4) Do this for how many ever meetings you set for the day
 
 # How to run this file on your computer: 
----
+
 
 Download requirements:
 ```
@@ -22,14 +22,14 @@ python main.py
 ```
 
 # Some zoom settings to make sure this python script works: 
----
+
 <img src="assets/uncheck.png" height="350" width="350">
 
 - Remember to UNCHECK this so that the script can automatically leave the meeting.
 - Please use light mode(sorry) for zoom panel.
 
 #How does it work?
----
+
 
 - This python script reads csv files which extracts 4 parameters(meeting id, meeting password, start time and end time).
 - It runs a while loop in which an if statement checks if any meeting start time is equal to current time and as soon as there is one it executes join_meeting()
