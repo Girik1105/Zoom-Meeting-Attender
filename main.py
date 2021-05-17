@@ -3,7 +3,18 @@ import subprocess
 import pyautogui
 from datetime import datetime
 
-dir = 'C:\\Users\girik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Zoom\Zoom'
+dir = '' #Add a valid path pointing to zoom, this will be used by os.startfile to open zoom 
+
+# This takes too long that is why just hard code the path in dir
+# start = "C:\\Users\\"
+# for dirpath, dirnames, filenames in os.walk(start):
+#     for filename in filenames:
+#         if filename == "Zoom":
+#             filename = os.path.join(dirpath, filename)
+#             print(filename)
+#             print(dirpath)
+# dir = os.path.join(dir, 'Zoom')
+
 
 def join_meeting(meeting_id, meeting_pwd):
 
